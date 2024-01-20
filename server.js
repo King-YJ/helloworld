@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 
 // setup a route to listen on the '/about' url path
 app.get("/about", (req, res) => {
-    res.json({course: "WEB322", section: "ZAA", task: "In-class Assignment 1"});
+    res.json({course: "WEB322", section: "ZAA", task: "Assignment 1"});
 });
 
 // setup http server to listen on HTTP_PORT
